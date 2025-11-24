@@ -1,0 +1,40 @@
+baseURL: "https://assettaskflow.com/"
+title: "Asset Task Flow"
+languageCode: "en-us"
+theme: "hextra"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - identifier: docs
+      name: Docs
+      url: /docs/introduction/
+      weight: 1
+
+    - identifier: github
+      name: GitHub
+      url: https://github.com/placeholder/repo
+      weight: 3
+      params:
+        icon: github
+
+params:
+  search:
+    enable: true
+  navbar:
+    displayTitle: true
+    logo:
+      text: "Asset–Task Flow"
+  footer:
+    enable: true
+    copyright: "© 2024 [Your Name]. Licensed under CC BY 3.0."
+  editURL:
+    enable: true
+    base: "https://github.com/placeholder/repo/edit/main/content"
+  page:
+    toc: true
+    breadcrumb: true
