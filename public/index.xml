@@ -1,17 +1,1 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Asset Task Flow – Asset Task Flow</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Asset Task Flow</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	  <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-      
-    
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Asset Task Flow – Asset Task Flow</title><link>https://assettaskflow.com/</link><description>Recent content on Asset Task Flow</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://assettaskflow.com/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

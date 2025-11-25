@@ -1,178 +1,97 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Asset Task Flow – Docs</title>
-    <link>http://localhost:1313/docs/</link>
-    <description>Recent content in Docs on Asset Task Flow</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	  <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Introduction</title>
-      <link>http://localhost:1313/docs/introduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/introduction/</guid>
-      <description>
-        
-        
-        &lt;h1&gt;The Core Concept: The Asset-First Workflow&lt;/h1&gt;&lt;p&gt;The Asset–Task Flow (ATF) Methodology is a lightweight framework that operationalizes the principle that all data assets are not equal. It addresses the twin challenges of documentation cost and value measurement by adopting an Asset-First perspective.&lt;/p&gt;
-&lt;h2&gt;The Two Pillars of Governance:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;the-two-pillars-of-governance&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-two-pillars-of-governance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Shift Left Governance (Asset Perspective):&lt;/strong&gt; From the Asset perspective, ATF recognizes that governance debt accumulates rapidly when documentation is done later. We flip this by making the Asset the central hub of all information. Every task, every mutation, every context point is logged directly against the Asset from the start, ensuring seamless, lesser-friction documentation that eliminates the need for expensive, reactive governance tools down the line.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Asset Task Flow – Documentation</title><link>https://assettaskflow.com/docs/</link><description>Recent content in Documentation on Asset Task Flow</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://assettaskflow.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Introducing the Asset Task Flow</title><link>https://assettaskflow.com/docs/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://assettaskflow.com/docs/introduction/</guid><description>
+&lt;p&gt;Most data teams function like a service bureau: a ticket comes in, we assign a resource, we ship the asset (a table, a dashboard, a pipeline), and we move on. Over time, we accumulate a massive portfolio of data assets. Some drive millions in revenue; others are zombie tables used by no one. But all of them require maintenance.&lt;/p&gt;
+&lt;p&gt;Often times, we ask the fundamental operational question: What is the “rent” we pay in engineering hours to keep a specific asset alive, and does the business value justify that cost?&lt;/p&gt;
+&lt;p&gt;Without this visibility, teams drown in unprioritized maintenance, and leadership struggles to understand why the headcount budget isn’t translating to faster feature delivery.&lt;/p&gt;
+&lt;p&gt;We don’t need more heavy governance tools for this. We need Operational Intelligence.&lt;/p&gt;
+&lt;p&gt;This is the premise of the Asset–Task Flow (ATF) Methodology.&lt;/p&gt;
+&lt;h2&gt;The Root Cause: The Governance Debt Trap&lt;span class="hx:absolute hx:-mt-20" id="the-root-cause-the-governance-debt-trap"&gt;&lt;/span&gt;
+&lt;a href="#the-root-cause-the-governance-debt-trap" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Why does this blind spot exist? It exists because we are using tools built for software tasks to manage data realities.&lt;/p&gt;
+&lt;p&gt;In software engineering, a ticket often represents a transient change: write the code, ship the feature, close the ticket. The code merges into the repository, and the task is done.&lt;/p&gt;
+&lt;p&gt;But data is different. Data is persistent.&lt;/p&gt;
+&lt;p&gt;When we ship a pipeline or a table, we create a permanent Asset that requires feeding, cleaning, and protecting. Standard project management tools (Jira, Linear, Asana) are excellent at tracking tasks, but they are terrible at tracking the state of the things we build.&lt;/p&gt;
+&lt;p&gt;Over time, as we complete thousands of tasks, we mutate the state of these assets. Because our tools don’t track this link, we create a drift between reality and documentation. This creates confusion, rework, and a silent accumulation of Governance Debt.&lt;/p&gt;
+&lt;p&gt;We treat governance as an afterthought or a tax we pay once a quarter. This is reactive, expensive, and rarely accurate. By the time you realize you don’t know why core_revenue breaks every Tuesday, you are already deep in debt.&lt;/p&gt;
+&lt;p&gt;To fix this, we must Shift Left.&lt;/p&gt;
+&lt;p&gt;We must abandon the practice of managing generic tickets only to govern assets (e.g. table, metrics, data pipelines, etc) later with separate tools, which forces governance into an expensive, reactive afterthought. The solution is to manage the Assets from the start. Governance is not a side project; it must be the natural, automatic byproduct of the work itself.&lt;/p&gt;</description></item><item><title>Core Concepts</title><link>https://assettaskflow.com/docs/core-concepts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://assettaskflow.com/docs/core-concepts/</guid><description>
+&lt;p&gt;The Asset–Task Flow (ATF) Methodology is a lightweight framework that operationalizes the principle that all data assets are not equal. It addresses the twin challenges of documentation cost and value measurement by adopting an Asset-First perspective.&lt;/p&gt;
+&lt;h2&gt;The Two Pillars of Governance:&lt;span class="hx:absolute hx:-mt-20" id="the-two-pillars-of-governance"&gt;&lt;/span&gt;
+&lt;a href="#the-two-pillars-of-governance" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Shift Left Governance (Asset Perspective):&lt;/strong&gt; From the Asset perspective, ATF recognizes that governance debt accumulates rapidly when documentation is done later. We flip this by making the Asset the central hub of all information. Every task, every mutation, every context point is logged directly against the Asset from the start, ensuring seamless, lesser-friction documentation that eliminates the need for expensive, reactive governance tools down the line.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Value-Driven Governance (Flow Perspective):&lt;/strong&gt; The governance visibility gained from the Asset perspective is then directly leveraged by the Flow perspective. This provides a new form of governance where assets are governed based on their measurable contribution and operational cost.&lt;/p&gt;
 &lt;p&gt;This relationship provides the necessary context: The Flow informs the required Value of the Asset, and the associated Tasks quantify the Operational Cost incurred to deliver that value.&lt;/p&gt;
 &lt;p&gt;To understand your true cost of ownership and measure value through this methodology, you must map the three entities that exist in your daily reality:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;- Flows (The Outcome):&lt;/strong&gt; The measurable business objective (e.g., “Quarterly Financial Reporting,” “Real-time Fraud Detection”).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;- Tasks (The Work):&lt;/strong&gt; The actual engineering effort (tickets) expended.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;- Assets (The Inventory):&lt;/strong&gt; The data objects (tables, models, APIs) being built or maintained.&lt;/p&gt;
-&lt;p&gt;By linking these three entities, we stop managing generic “tickets” and start managing Impact.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Core Concepts</title>
-      <link>http://localhost:1313/docs/core-concepts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/core-concepts/</guid>
-      <description>
-        
-        
-        &lt;h1&gt;Core Concepts&lt;/h1&gt;&lt;p&gt;The ATF Methodology is built on three pillars: &lt;strong&gt;Asset&lt;/strong&gt;, &lt;strong&gt;Task&lt;/strong&gt;, and &lt;strong&gt;Flow&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2&gt;The Three Pillars&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;the-three-pillars&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-three-pillars&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. Asset&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-asset&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-asset&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;An &lt;strong&gt;Asset&lt;/strong&gt; is any persistent entity that provides value. In data engineering, this could be a table, a dashboard, a pipeline, or a machine learning model.&lt;/p&gt;
-&lt;h3&gt;2. Task&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-task&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-task&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A &lt;strong&gt;Task&lt;/strong&gt; is a unit of work performed on an Asset. Tasks are the atomic units of operational activity.&lt;/p&gt;
-&lt;h3&gt;3. Flow&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-flow&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-flow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Flow&lt;/strong&gt; is the movement of value through the system. It represents the lifecycle of Assets and the Tasks that modify them.&lt;/p&gt;
-&lt;h2&gt;The Relationship&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;the-relationship&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-relationship&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;pre class=&#34;mermaid hx:mt-6&#34;&gt;
-  graph LR
-    Flow --&amp;gt;|drives| Task
-    Task --&amp;gt;|mutates| Asset
-&lt;/pre&gt;&lt;h2&gt;Task Types&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;task-types&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#task-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ATF categorizes tasks into three distinct types to provide clarity on the nature of work:&lt;/p&gt;
-&lt;h3&gt;Flow Tasks (Value Generation)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;flow-tasks-value-generation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#flow-tasks-value-generation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Tasks that create new value or significantly improve existing assets. These are &amp;ldquo;investments.&amp;rdquo;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Example:&lt;/em&gt; Building a new dashboard, optimizing a query for 10x performance.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🔷 Flows (The Outcome): The measurable business objective (e.g., “Quarterly Financial Reporting,” “Real-time Fraud Detection”).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🔧 Tasks (The Work): The actual engineering effort (tickets) expended.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🗂️ Assets (The Inventory): The data objects (tables, models, APIs) being built or maintained.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Flowless Tasks (Operational Tax)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;flowless-tasks-operational-tax&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#flowless-tasks-operational-tax&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Tasks required to maintain the status quo. This is the &amp;ldquo;rent&amp;rdquo; you pay for owning assets.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Sub-type: Growth:&lt;/em&gt; Necessary work to scale (e.g., adding storage).&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Sub-type: Rot:&lt;/em&gt; Fixing broken things (e.g., bug fixes, incident response).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Ad Hoc Tasks (Demand Signals)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ad-hoc-tasks-demand-signals&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#ad-hoc-tasks-demand-signals&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Unplanned requests from stakeholders. These serve as demand signals that may lead to new Flow Tasks or reveal hidden Flowless Tasks.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Example:&lt;/em&gt; &amp;ldquo;Can you pull this number for me?&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>The Zero-Tool Setup</title>
-      <link>http://localhost:1313/docs/implementation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/implementation/</guid>
-      <description>
-        
-        
-        &lt;h1&gt;The Zero-Tool Setup&lt;/h1&gt;&lt;p&gt;You don&amp;rsquo;t need expensive new software to implement ATF. You can start today with the tools you already use, like Jira, Linear, or GitHub Issues.&lt;/p&gt;
-&lt;h2&gt;Implementation Steps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;implementation-steps&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#implementation-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. Define Your Assets&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-define-your-assets&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-define-your-assets&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create a list of your key data assets. This could be a simple spreadsheet or a dedicated &amp;ldquo;Assets&amp;rdquo; project in your issue tracker.&lt;/p&gt;
-&lt;h3&gt;2. Configure Your Issue Tracker&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-configure-your-issue-tracker&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-configure-your-issue-tracker&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Add two custom fields to your issue tracker:&lt;/p&gt;
+&lt;p&gt;By linking these three entities, we stop managing generic “tickets” and start managing Impact.&lt;/p&gt;</description></item><item><title>Asset–Task Flow Specification</title><link>https://assettaskflow.com/docs/specification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://assettaskflow.com/docs/specification/</guid><description>
+&lt;p&gt;In the ATF framework, not all work is created equal. Every hour an engineer spends falls into one of three distinct categories. Understanding the balance between these categories is the key to strategic resource allocation.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Flow Tasks (Value Generation): These are tasks explicitly linked to a Business Flow.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Example: “Ingest new demographic signals for the Churn Prediction Model.”&lt;/p&gt;
+&lt;p&gt;The Reality: This is the work that shows up on the roadmap. It is the work stakeholders think we are doing 100% of the time.&lt;/p&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;Ad Hoc Tasks (Demand Signals): Stakeholders often bypass roadmaps for quick answers. The traditional engineering instinct is to block these requests. ATF takes a different approach: Ad Hoc is data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The Strategy: Instead of building process walls, we track “Ad Hoc” tasks against the specific Asset they touch.&lt;/p&gt;
+&lt;p&gt;The Insight: If you see 20 ad hoc requests hitting the booking_logs table in a month, you haven’t found a nuisance; you have found a Shadow Flow. This is empirical evidence of business demand that justifies building a self-service tool or automating a formal Flow.&lt;/p&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;Flowless Tasks (The Operational Reality): This is the most critical category for measuring Cost of Ownership. A Flowless Task is any work required to keep an Asset operational that does not add new features.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Crucially, this is not a penalty.&lt;/p&gt;
+&lt;p&gt;In many organizations, maintenance is viewed as “fixing bugs” or “cleaning up bad code.” This is a reductive view. Flowless tasks represent the operational reality of a living system. When an asset generates a high volume of operational work, it triggers a specific diagnostic question: Is this Rot, or is this Growth?&lt;/p&gt;
+&lt;p&gt;Scenario A (Rot): A pipeline breaks weekly because the code is brittle or dependencies are circular.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Technical Debt.&lt;/p&gt;
+&lt;p&gt;Action: Refactor or Deprecate.&lt;/p&gt;
+&lt;p&gt;Scenario B (Growth): A core transaction table is experiencing exponential data growth. The team is spending hours optimizing queries, partitioning storage, and scaling compute to keep up with ingestion volume.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Scale.&lt;/p&gt;
+&lt;p&gt;Action: This is a signal for Infrastructure Investment.&lt;/p&gt;
+&lt;p&gt;By categorizing Flowless Tasks, we move the conversation from “why is the team so slow?” to “Asset X is growing exponentially and requires architectural investment to sustain.”&lt;/p&gt;</description></item><item><title>Implementation</title><link>https://assettaskflow.com/docs/implementation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://assettaskflow.com/docs/implementation/</guid><description>
+&lt;p&gt;You don&amp;rsquo;t need expensive new software to implement ATF. You can start today with the tools you already use, like Jira, Linear, or GitHub Issues.&lt;/p&gt;
+&lt;h2&gt;Implementation Steps&lt;span class="hx:absolute hx:-mt-20" id="implementation-steps"&gt;&lt;/span&gt;
+&lt;a href="#implementation-steps" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. Define Your Assets&lt;span class="hx:absolute hx:-mt-20" id="1-define-your-assets"&gt;&lt;/span&gt;
+&lt;a href="#1-define-your-assets" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create a list of your key data assets. This could be a simple spreadsheet or a dedicated &amp;ldquo;Assets&amp;rdquo; project in your issue tracker.&lt;/p&gt;
+&lt;h3&gt;2. Configure Your Issue Tracker&lt;span class="hx:absolute hx:-mt-20" id="2-configure-your-issue-tracker"&gt;&lt;/span&gt;
+&lt;a href="#2-configure-your-issue-tracker" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Add two custom fields to your issue tracker:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Linked Asset ID:&lt;/strong&gt; A reference to the asset being modified.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Task Type:&lt;/strong&gt; A dropdown with values: &lt;code&gt;Flow&lt;/code&gt;, &lt;code&gt;Flowless&lt;/code&gt;, &lt;code&gt;Ad Hoc&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;3. Link Tasks to Assets&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-link-tasks-to-assets&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-link-tasks-to-assets&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Every time you create a ticket, ensure it is linked to an Asset and has a Task Type assigned.&lt;/p&gt;
-&lt;h2&gt;Quick Start Script&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;quick-start-script&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#quick-start-script&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Here is a Python script to help you analyze your tasks if you export them to CSV:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pandas &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; pd
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;analyze_tasks&lt;/span&gt;(csv_file):
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    df &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read_csv(csv_file)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# Group by Task Type&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    type_counts &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; df[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Task Type&amp;#39;&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;value_counts()
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Task Distribution:&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(type_counts)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# Calculate &amp;#34;Rent&amp;#34; (Flowless tasks per Asset)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    rent &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; df[df[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Task Type&amp;#39;&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Flowless&amp;#39;&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;groupby(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Linked Asset ID&amp;#39;&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;size()
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Asset Rent (Top 5):&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(rent&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;sort_values(ascending&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;False&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;head())
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; __name__ &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;__main__&amp;#34;&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    analyze_tasks(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tasks.csv&amp;#39;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
+&lt;h3&gt;3. Link Tasks to Assets&lt;span class="hx:absolute hx:-mt-20" id="3-link-tasks-to-assets"&gt;&lt;/span&gt;
+&lt;a href="#3-link-tasks-to-assets" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Every time you create a ticket, ensure it is linked to an Asset and has a Task Type assigned.&lt;/p&gt;
+&lt;h2&gt;Quick Start Script&lt;span class="hx:absolute hx:-mt-20" id="quick-start-script"&gt;&lt;/span&gt;
+&lt;a href="#quick-start-script" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Here is a Python script to help you analyze your tasks if you export them to CSV:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; pandas &lt;span style="color:#66d9ef"&gt;as&lt;/span&gt; pd
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;analyze_tasks&lt;/span&gt;(csv_file):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; df &lt;span style="color:#f92672"&gt;=&lt;/span&gt; pd&lt;span style="color:#f92672"&gt;.&lt;/span&gt;read_csv(csv_file)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# Group by Task Type&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; type_counts &lt;span style="color:#f92672"&gt;=&lt;/span&gt; df[&lt;span style="color:#e6db74"&gt;&amp;#39;Task Type&amp;#39;&lt;/span&gt;]&lt;span style="color:#f92672"&gt;.&lt;/span&gt;value_counts()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;Task Distribution:&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(type_counts)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# Calculate &amp;#34;Rent&amp;#34; (Flowless tasks per Asset)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; rent &lt;span style="color:#f92672"&gt;=&lt;/span&gt; df[df[&lt;span style="color:#e6db74"&gt;&amp;#39;Task Type&amp;#39;&lt;/span&gt;] &lt;span style="color:#f92672"&gt;==&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;Flowless&amp;#39;&lt;/span&gt;]&lt;span style="color:#f92672"&gt;.&lt;/span&gt;groupby(&lt;span style="color:#e6db74"&gt;&amp;#39;Linked Asset ID&amp;#39;&lt;/span&gt;)&lt;span style="color:#f92672"&gt;.&lt;/span&gt;size()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\n&lt;/span&gt;&lt;span style="color:#e6db74"&gt;Asset Rent (Top 5):&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(rent&lt;span style="color:#f92672"&gt;.&lt;/span&gt;sort_values(ascending&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;False&lt;/span&gt;)&lt;span style="color:#f92672"&gt;.&lt;/span&gt;head())
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; __name__ &lt;span style="color:#f92672"&gt;==&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;__main__&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; analyze_tasks(&lt;span style="color:#e6db74"&gt;&amp;#39;tasks.csv&amp;#39;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Specification</title>
-      <link>http://localhost:1313/docs/specification/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/specification/</guid>
-      <description>
-        
-        
-        &lt;h1&gt;Asset–Task Flow Specification&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Version:&lt;/strong&gt; 1.0.0
-&lt;strong&gt;Status:&lt;/strong&gt; Draft&lt;/p&gt;
-&lt;p&gt;The key words &amp;ldquo;MUST&amp;rdquo;, &amp;ldquo;MUST NOT&amp;rdquo;, &amp;ldquo;REQUIRED&amp;rdquo;, &amp;ldquo;SHALL&amp;rdquo;, &amp;ldquo;SHALL NOT&amp;rdquo;, &amp;ldquo;SHOULD&amp;rdquo;, &amp;ldquo;SHOULD NOT&amp;rdquo;, &amp;ldquo;RECOMMENDED&amp;rdquo;, &amp;ldquo;MAY&amp;rdquo;, and &amp;ldquo;OPTIONAL&amp;rdquo; in this document are to be interpreted as described in &lt;a href=&#34;https://tools.ietf.org/html/rfc2119&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RFC 2119&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;1. Assets&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-assets&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-assets&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1.1 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;11-definition&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#11-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;An Asset MUST be a uniquely identifiable entity within the system.&lt;/p&gt;
-&lt;h3&gt;1.2 Identification&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;12-identification&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#12-identification&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Each Asset MUST have a unique identifier (Asset ID).&lt;/p&gt;
-&lt;h2&gt;2. Tasks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-tasks&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-tasks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;2.1 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-definition&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#21-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A Task MUST represent a discrete unit of work.&lt;/p&gt;
-&lt;h3&gt;2.2 Linking&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-linking&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#22-linking&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Every Task MUST be linked to at least one Asset. If a Task affects multiple Assets, it SHOULD be split into sub-tasks or linked to a parent Asset that encompasses the affected components.&lt;/p&gt;
-&lt;h3&gt;2.3 Typing&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;23-typing&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#23-typing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Every Task MUST be assigned exactly one of the following Task Types:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Flow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Flowless&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Ad Hoc&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;3. Flow&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-flow&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-flow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;3.1 Measurement&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;31-measurement&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#31-measurement&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Flow MUST be measured by the completion of Flow Tasks.&lt;/p&gt;
-&lt;h3&gt;3.2 Metrics&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;32-metrics&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#32-metrics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Implementers SHOULD track the ratio of Flow Tasks to Flowless Tasks to determine the &amp;ldquo;Operational Efficiency&amp;rdquo; of the system.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/div&gt;</description></item></channel></rss>
